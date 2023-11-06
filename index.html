@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Reunite Hub</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif; /* Use the Poppins font */
+            background: linear-gradient(to bottom, #f4f4f4, #e6e6e6);
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #0052cc, #007BFF);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .gif {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins"> <!-- Include the Poppins font via Google Fonts API -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Pet Reunite Hub</h1>
+    </header>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>
+            The Pet Reunion Website is dedicated to helping lost pets find their way back to their loving homes and reuniting them with their families. Our mission is to provide a platform where pet owners can post information about their lost pets, and those who have found lost pets can connect with the owners to facilitate joyful reunions.
+        </p>
+        <p>
+            If you are a pet owner searching for your beloved companion , our website is here to assist you in the reunion process. We understand the bond between pets and their owners, and we are committed to making the world a better place for our furry friends.
+        </p>
+        <p>
+            Join us in this mission, and together, we can make countless pet reunions happen.
+        </p>
+        <p>
+            <a href="#">Learn more</a> about our services and how you can get involved.
+        </p>
+        <div class="gif">
+            <img src="https://media.tenor.com/pUN0nPBWLEkAAAAC/cute-aww.gif" alt="Pet Reunion GIF" width="200">
+            <img src="https://i.pinimg.com/originals/c4/c5/3c/c4c53c48cc5ef5d0af630ba961c5ca73.gif"alt="Pet Reunion GIF" width="200">
+        </div>
+         <p>
+             <a id="loginLink" href="#" style="align-self: center;">Kindly login to continue</a>
+        </p>
+    </div>
+    
+    <script>
+        // Add an event listener to the "Kindly login to continue" link
+        const loginLink = document.getElementById('loginLink');
+        loginLink.addEventListener('click', function() {
+            // Redirect to the login page
+            window.location.href = 'login.html'; // Replace 'login.html' with the actual URL of your login page
+        });
+    </script>
+</body>
+</html>

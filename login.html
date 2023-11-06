@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Pet Reunion Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #007BFF, #0056b3);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 80%;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin-top: 20px; /* Adjust the margin-top value to reduce the space from the top */
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            height: 40px;
+        }
+
+        button {
+            background-color: #0056b3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            height: 40px;
+        }
+
+        button:hover {
+            background-color: #003f80;
+        }
+
+        .gif-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 20px;
+        }
+
+        .signin-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .continue-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login</h2>
+        <form action="homepage.html">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div class="gif-container">
+        <img src="https://media2.giphy.com/media/6MWahPArixa6I/200w.gif?cid=6c09b952ai3won3hpxuw9wujes56qhjdhzx3422kqlafrvz8&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Cute Dog GIF" width="200">
+    </div>
+
+    <div class="message">
+        Thank you for logging in!
+    </div>
+
+    <div class="signin-link">
+        Already have an account? <a href="signin.html">Sign In</a>
+    </div>
+    <div class="continue-link">
+        <a href="next.html">Continue</a>
+    </div>
+</body>
+</html>
